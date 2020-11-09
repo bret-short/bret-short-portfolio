@@ -61,7 +61,7 @@ header {
     display: flex;
     padding: 10px;
     font-size: 30px;
-    color: red;
+    
 }
 .hero-content img {
     height: 50px;
@@ -127,6 +127,11 @@ header {
     border-left: solid 1px;
     
 }
+
+a:hover {
+    background-color: #fce138;
+}
+
 .work-heading {
     display: flex;
     border-right: solid 3px;
