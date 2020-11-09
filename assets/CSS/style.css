@@ -60,6 +60,8 @@ header {
     margin: 0;
     display: flex;
     padding: 10px;
+    font-size: 30px;
+    color: red;
 }
 .hero-content img {
     height: 50px;
