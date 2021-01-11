@@ -170,11 +170,12 @@ a:hover {
     color: #303030;
 }
 .run-buddy {
-    height: 193px;
-    width: 400px;
+    height: 160px;
+    width: 330px;
     background-image: url(../images/hero-bg.jpg);
-    background-size: contain;
+    background-size: 100%;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 .horiseon {
     height: 170px;
@@ -189,10 +190,11 @@ a:hover {
     background-size: contain;
 }
 .baseballs {
-    height: 250px;
-    width: 167px;
-    background-image: url(../images/baseballs.jpg);
-    background-size: contain;
+    height: 200px;
+    width: 380px;
+    background-image: url(../images/Gamer-Portal-Screenshot.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .elephant {
     height: 210px;
