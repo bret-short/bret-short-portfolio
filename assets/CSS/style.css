@@ -182,9 +182,10 @@ a:hover {
   background-size: contain;
 }
 .sushi {
-  height: 230px;
-  width: 155px;
+  height: 180px;
+  width: 390px;
   background-image: url(../images/iMemeitscreenshot.png);
+  background-repeat: no-repeat;
   background-size: contain;
 }
 .baseballs {
