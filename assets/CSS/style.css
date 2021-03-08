@@ -1,290 +1,284 @@
 body {
-    font-family: sans-serif;
-    margin: auto;
-    box-sizing: border-box;
-    max-width: 1440px;
-    padding: 10px;
+  font-family: sans-serif;
+  margin: auto;
+  box-sizing: border-box;
+  max-width: 1440px;
+  padding: 10px;
 }
 /* header section start */
 header {
-    margin: 0;   
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    background-color: #201e1e;
-    border-top: solid 1px;
-    border-left: solid 1px;
-    border-right: solid 1px;
+  margin: 0;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #201e1e;
+  border-top: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
 }
 .header-title {
-    margin: 0;
-    display: flex;
-    align-items: center;
-    padding: 10px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  padding: 10px;
 }
-.header-title h1{
-    margin: 0;
-    color: #024e76;
+.header-title h1 {
+  margin: 0;
+  color: #024e76;
 }
 .header-nav {
-   margin: 0;
-   align-items: center;
-   padding: 10px;
-   height: min-content;
+  margin: 0;
+  align-items: center;
+  padding: 10px;
+  height: min-content;
 }
 .header-nav a {
-    margin: 0 10px 0 10px;
-    padding: 5px;
-    font-weight: bold;
-    color:#024e76;
-    text-decoration: none;
-    border-bottom: solid 3px;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+  font-weight: bold;
+  color: #024e76;
+  text-decoration: none;
+  border-bottom: solid 3px;
 }
 /* header section stop */
 
 /* hero section start */
 .hero {
-    margin: auto;
-    height: 500px;
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-    border-left: solid 1px;
-    border-right: solid 1px;
-    background-position: center;
-    background-position-y: -8cm;
-    background-size: cover;
-    background-image: url(../images/bret-family.jpg);
+  margin: auto;
+  height: 500px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  background-position: center;
+  background-position-y: -8cm;
+  background-size: cover;
+  background-image: url(../images/bret-family.jpg);
 }
 .hero-content {
-    margin: 0;
-    display: flex;
-    padding: 10px;
-    font-size: 30px;
-    
+  margin: 0;
+  display: flex;
+  padding: 10px;
+  font-size: 30px;
 }
 .hero-content img {
-    height: 50px;
+  height: 50px;
 }
 .hero-content a {
-    margin: 0;
-    font-weight: bold;
-    color: lightgrey;
-    text-decoration: none;
-    background-color: #303030;
-    padding: 10px;
+  margin: 0;
+  font-weight: bold;
+  color: lightgrey;
+  text-decoration: none;
+  background-color: #303030;
+  padding: 10px;
 }
 /* about-me section start */
 .about-me {
-    margin: 0;
-    display: flex;
-    height: max-content;
-    align-items: top;
-    justify-content: flex-start;
-    padding: 10px;
-    background-color: #39a6b2;
-    color: #303030;
-    border-left: solid 1px;
-    border-right: solid 1px;
+  margin: 0;
+  display: flex;
+  height: max-content;
+  align-items: top;
+  justify-content: flex-start;
+  padding: 10px;
+  background-color: #39a6b2;
+  color: #303030;
+  border-left: solid 1px;
+  border-right: solid 1px;
 }
 .about-me-heading {
-    display: flex;
-    border-right: solid 3px;
+  display: flex;
+  border-right: solid 3px;
 }
 .about-me h1 {
-    margin: 0;
-    display: flex;
-    width: min-content;
-    align-items: top;
-    text-align: right;
-    padding: 10px 10px 10px 50px;
+  margin: 0;
+  display: flex;
+  width: min-content;
+  align-items: top;
+  text-align: right;
+  padding: 10px 10px 10px 50px;
 }
 .about-me-content {
-    display: flex;
-    height: max-content;
-    justify-content: flex-start;
+  display: flex;
+  height: max-content;
+  justify-content: flex-start;
 }
 .about-me p {
-    margin: 0;
-    font-size: 20px;
-    display: flex;
-    height: max-content;
-    align-items: top;
-    text-align: left;
-    padding: 10px;
+  margin: 0;
+  font-size: 20px;
+  display: flex;
+  height: max-content;
+  align-items: top;
+  text-align: left;
+  padding: 10px;
 }
 /* about-me section stop */
 
 /* work section start */
 .work {
-    margin: 0;
-    display: flex;;
-    height: max-content;
-    align-items: top;
-    padding: 10px;
-    background-color: #39a6b2;
-    color: #303030;
-    border-left: solid 1px;
-    
+  margin: 0;
+  display: flex;
+  height: max-content;
+  align-items: top;
+  padding: 10px;
+  background-color: #39a6b2;
+  color: #303030;
+  border-left: solid 1px;
 }
 
 a:hover {
-    background-color: #fce138;
+  background-color: #fce138;
 }
 
 .work-heading {
-    display: flex;
-    border-right: solid 3px;
+  display: flex;
+  border-right: solid 3px;
 }
 .work h1 {
-    margin: 0;
-    display: flex;
-    width: min-content;
-    align-items: top;
-    text-align: right;
-    padding: 10px 10px 10px 60px
+  margin: 0;
+  display: flex;
+  width: min-content;
+  align-items: top;
+  text-align: right;
+  padding: 10px 10px 10px 60px;
 }
 .work-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: fit-content;
 }
 .work .grid-item {
-    display: flex;
-    justify-content: left;
-    align-items: flex-end;
-    border: solid 3px;
-    margin: 10px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-end;
+  border: solid 3px;
+  margin: 10px;
 }
 .work p {
-    font-size: 10px;
-    display: flex;
-    margin: 0 0 10px 0;
-    background-color: #303030;
-    color: lightgrey;
+  font-size: 10px;
+  display: flex;
+  margin: 0 0 10px 0;
+  background-color: #303030;
+  color: lightgrey;
 }
 .work a {
-    display: flex;
-    text-decoration: none;
-    color: #303030;
+  display: flex;
+  text-decoration: none;
+  color: #303030;
 }
 .run-buddy {
-    height: 160px;
-    width: 330px;
-    background-image: url(../images/hero-bg.jpg);
-    background-size: 100%;
-    justify-content: center;
-    background-repeat: no-repeat;
+  height: 160px;
+  width: 330px;
+  background-image: url(../images/hero-bg.jpg);
+  background-size: 100%;
+  justify-content: center;
+  background-repeat: no-repeat;
 }
 .horiseon {
-    height: 170px;
-    width: 330px;
-    background: url(../images/horiseon.jpg);
-    background-size: contain;
+  height: 170px;
+  width: 330px;
+  background: url(../images/horiseon.jpg);
+  background-size: contain;
 }
 .sushi {
-    height: 230px;
-    width: 155px;
-    background-image: url(../images/sushi.jpg);
-    background-size: contain;
+  height: 230px;
+  width: 155px;
+  background-image: url(../images/iMemeitscreenshot.png);
+  background-size: contain;
 }
 .baseballs {
-    height: 200px;
-    width: 380px;
-    background-image: url(../images/Gamer-Portal-Screenshot.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 200px;
+  width: 380px;
+  background-image: url(../images/Gamer-Portal-Screenshot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .elephant {
-    height: 210px;
-    width: 310px;
-    background-image: url(../images/elephant.jpg);
-    background-size: contain;
+  height: 210px;
+  width: 310px;
+  background-image: url(../images/elephant.jpg);
+  background-size: contain;
 }
 /* work section stop */
 
 /* contact me section start */
 .contact-me {
-    margin: 0;
-    display: flex;
-    height: max-content;
-    align-items: top;
-    padding: 10px;
-    background-color: #39a6b2;
-    color: #303030;
-    border-bottom: solid 1px;;
-    border-left: solid 1px;
-    border-right: solid 1px;
+  margin: 0;
+  display: flex;
+  height: max-content;
+  align-items: top;
+  padding: 10px;
+  background-color: #39a6b2;
+  color: #303030;
+  border-bottom: solid 1px;
+  border-left: solid 1px;
+  border-right: solid 1px;
 }
 .contact-me-heading {
-    display: flex;
+  display: flex;
 }
 .contact-me h1 {
-    margin: 0;
-    display: flex;
-    width: min-content;
-    align-items: top;
-    text-align: right;
-    padding: 10px 10px 10px 30px;
-    border-right: solid 3px;
+  margin: 0;
+  display: flex;
+  width: min-content;
+  align-items: top;
+  text-align: right;
+  padding: 10px 10px 10px 30px;
+  border-right: solid 3px;
 }
 .contact-me-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: max-content;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: max-content;
+  margin: auto;
 }
 .contact-me p {
-    margin: 0px 25px 0px 25px;
-    padding: 5px;
-    display: flex;
-    height: max-content;
-    align-items: top;
-    text-align: left;
-    border-bottom: solid 3px;
+  margin: 0px 25px 0px 25px;
+  padding: 5px;
+  display: flex;
+  height: max-content;
+  align-items: top;
+  text-align: left;
+  border-bottom: solid 3px;
 }
 /* contact me section stop */
 
 /*media queries for any screen smaller than 980px */
 
 @media screen and (max-width: 980px) {
-    header {
-      padding: 0;
-      justify-content: center;
-    }
+  header {
+    padding: 0;
+    justify-content: center;
+  }
 
-    header h1 {
-      width: 100%;
-      text-align: center;
-    }
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
 
-    .hero {
-      width: 100%;
-      background-position-y: -4cm;
-    }
+  .hero {
+    width: 100%;
+    background-position-y: -4cm;
+  }
 
-    .hero-content {
-      text-align: center;
-    }
-}  
+  .hero-content {
+    text-align: center;
+  }
+}
 /* MEDIA QUERIES FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
-    section {
-        padding: 30px 15px;
+  section {
+    padding: 30px 15px;
+  }
+  .work-content {
+    flex: 2 100%;
+  }
 
-    }
-    .work-content {
-        flex: 2 100%;
-
-    }
-        
-    .grid-item, .run-buddy {
-        height: 223px;
-        width: 433px;
-    }
-
-
+  .grid-item,
+  .run-buddy {
+    height: 223px;
+    width: 433px;
+  }
 }
-  
